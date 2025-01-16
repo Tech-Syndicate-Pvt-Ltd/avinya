@@ -1,4 +1,4 @@
-// File: /home/loen/SideProjects/avinya/app/(site)/page.tsx
+// File: /home/leon/Projects/avinya/app/(site)/page.tsx
 import * as entry from '../../../../app/(site)/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

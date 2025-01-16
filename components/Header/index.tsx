@@ -36,20 +36,20 @@ const Header = () => {
       }`}
     >
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
-        <div className="flex w-full items-center justify-between xl:w-1/4">
+        <div className="flex w-full items-center justify-between xl:w-1/4 mr-10">
           <a href="/">
             <Image
-              src="/images/logo/logo-dark.svg"
+              src="/images/logo/logo-dark.png"
               alt="logo"
-              width={119.03}
-              height={30}
+              width={130}
+              height={65}
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/logo-light.svg"
+              src="/images/logo/logo-light.png"
               alt="logo"
-              width={119.03}
-              height={30}
+              width={130}
+              height={65}
               className="w-full dark:hidden"
             />
           </a>
@@ -158,14 +158,14 @@ const Header = () => {
               href="https://github.com/NextJSTemplates/solid-nextjs"
               className="text-regular font-medium text-waterloo hover:text-primary"
             >
-              GitHub Repo 🌟
+              See More 🌟
             </Link>
 
             <Link
               href="https://nextjstemplates.com/templates/solid"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
-              Get Pro 🔥
+              Join Now 🔥
             </Link>
           </div>
         </div>
